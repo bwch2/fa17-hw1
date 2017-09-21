@@ -7,20 +7,14 @@ end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
-  
-  a.sort
-  
-  a.each { |a| print a+=1, " " }
-  
-  return a
+  return a.map{|e| e+1}.sort
 
 
 end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
-  
-  print first_name + '' + last_name
+  return first_name + ' ' + last_name
 
 end
 
